@@ -1,0 +1,43 @@
+async-await 
+async await is used to make promieses code more synchronus and modern. it is easy to read .
+Await is keyword to make code wait until a promise is resolved
+
+we cannot make code wait directly so await keyword must be used inside 'async' function.
+
+eg :
+
+
+promise code :
+   fetch('url')
+   .then(function(res){return res.json})
+   .than(function(data){ console.log(data)})
+   .catch(function(err){console.log(err)})
+
+
+   the above code can be changed as :
+   async function(){
+const res = await fetch('http//');
+const data = await res.json()
+}
+
+   for error handling, we can use try catch blocks:
+     >> A function can be expressed multiple ways in js:
+     1) normal function:
+     function display(){
+        console.log('Hello world')
+     }
+     display()
+   2) function expression
+     let display =function(){
+        console.log('Hello world')
+     }
+    
+    3)function expression can be written in more simpler way.
+    that modern approach to write function expression is arrow 
+    function
+    let display = ()=>console.log('hello world')
+
+    
+
+
+

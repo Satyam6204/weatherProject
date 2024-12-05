@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+   background-image: url('https://wallpaperbat.com/img/670588-india-map-hd-wallpaper-water-earth-archipelago-aerial-photography-water-resources.jpg');
+}
+
+main{
+    margin-left: 500px;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+
+  
+  
+  
+}
+.container{
+     display: flex;
+    flex-direction: column;
+    background-color: rgba(23, 5, 103, 0.685);
+    border-radius: 50px;
+}
+
+.box{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    background-color: #333;
+    border-radius: 20px;
+    border: 5px solid rgb(134, 143, 150);
+}
+
+/* #result{
+    padding-left: 150px; 
+    padding: 20px;
+    font-size: 15px;
+    color:white;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 250px;
+    width: 400px;
+    background-color: #0e6fb4;
+    border-radius: 20px;
+   
+} */
+
+.boxx{
+    
+   
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url('https://th.bing.com/th/id/OIP.1EhpR4I80qiB-ofERR5TigHaE8?rs=1&pid=ImgDetMain');
+   
+}
+
+
+.boxx h1{
+    color:white;
+}
+    
+#inp{
+
+    width: 300px;
+    font-size: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#btn{
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 140px;
+}
+
+
+.run{
+    width: 100%;
+    background-color: blueviolet;
+    color:white;
+   border-radius: 10px;
+}
+
+
+.city{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    
+    
+}
+.foo{
+    margin-top: 110px;
+    display: flex;
+    color: white;
+    height: 40px;
+    width: 100%;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
